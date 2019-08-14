@@ -13,6 +13,14 @@ func main() {
 	// results2 := DuplicateArr(nums2, 4)
 	// fmt.Println(results2)
 
-	table := MultiplicationTable(12)
-	fmt.Println(table)
+	// table := MultiplicationTable(12)
+	// fmt.Println(table)
+	
+	html := StyleParse("Hello,world", []Tag{
+		{0, 2, "i"},
+		{4, 8, "b"},
+		{7, 10, "u"},
+	})
+
+	fmt.Println(html)
 }
